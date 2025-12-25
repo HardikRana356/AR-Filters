@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Inter, system-ui;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 260px;
+  background: #020617;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: #1e293b;
+  color: white;
+}
+
+.sidebar button.on { background: #22c55e; }
+.sidebar button.off { background: #ef4444; }
+
+.viewer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

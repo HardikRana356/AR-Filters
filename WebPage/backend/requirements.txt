@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+opencv-python
+numpy
+cvzone==1.5.6
+mediapipe==0.10.9
